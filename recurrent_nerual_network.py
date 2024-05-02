@@ -6,7 +6,7 @@ import warnings
 import os
 
 # Load a single stock data using Pandas
-data = pd.read_csv("C:/Users/Eddie/Documents/GitHub/risk_n_alysis_project/archive/Stocks/aapl.us.txt")
+data = pd.read_csv("C:/Users/Eddie/Documents/GitHub/ECE_4424_Final_Project_Pritchard/archive/Stocks/aapl.us.txt")
 
 # Split data into training and testing portions with an 80/20 split
 training_size = int(len(data)*0.80)
